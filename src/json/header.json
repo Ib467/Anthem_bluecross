@@ -1,0 +1,21 @@
+{
+	"fields": [{
+		"label": "LogoIamge",
+		"field_type": "URL",
+		"required": true,
+		"url": "http://localhost:9006/images/anthem_logo.png",
+		"cid": "c1"
+	}, {
+		"label": "welcome_text",
+		"field_type": "text",
+		"required": false,
+		"description": "Custom Welcome Message from -  JSON",
+		"cid": "c2"
+	}, {
+		"label": "last_visited",
+		"field_type": "text",
+		"required": false,
+		"description": "Custom Last Visited message from JSON",
+		"cid": "c3"
+	}]
+}

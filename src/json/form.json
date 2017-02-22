@@ -1,0 +1,9 @@
+{
+	"fields": [{
+		"label": "Instructions",
+		"field_type": "text",
+		"required": true,
+		"description": "description for instruction..",
+		"cid": "c6"
+	}]
+}

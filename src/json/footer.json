@@ -1,0 +1,92 @@
+{
+	"fields": [{
+			"label": "SHOP",
+			"field_type": "text",
+			"required": true,
+			"description": "SHOP:",
+			"cid": "c1",
+			"sub_links": {
+				"links": [{
+					"label": "Health Plans",
+					"link": "/health-insurance/",
+					"field_type": "text",
+					"required": true,
+					"cid": "c2"
+				}, {
+					"label": "Medicare Plans",
+					"link": "http://www.anthem.com/shop",
+					"target": "_blank",
+					"field_type": "text",
+					"required": true,
+					"cid": "c3"
+				}, {
+					"label": "Small Business Plans",
+					"link": "http://group.anthem.com/SmallBusinessQuote",
+					"target": "_blank",
+					"field_type": "text",
+					"required": true,
+					"cid": "c4"
+				}]
+			}
+		}, {
+			"label": "ABOUT_ABCBS",
+			"field_type": "text",
+			"required": true,
+			"description": "ABOUT ABCBS:",
+			"cid": "c6",
+			"sub_links": {
+				"links": [{
+					"label": "About Us",
+					"link": "/health-insurance/about-us/anthem-overview",
+					"field_type": "text",
+					"required": true,
+					"cid": "c7"
+				}, {
+					"label": "Locations",
+					"link": "/health-insurance/about-us/locations",
+					"field_type": "text",
+					"required": true,
+					"cid": "c8"
+				}, {
+					"label": "Press Room",
+					"link": "/health-insurance/about-us/press-room",
+					"field_type": "text",
+					"required": true,
+					"cid": "c9"
+				}, {
+					"label": "Careers",
+					"link": "http://www.careersatwellpoint.com/default.aspx",
+					"target": "_blank",
+					"field_type": "text",
+					"required": true,
+					"cid": "c10"
+				}, {
+					"label": "Foundation Guidelines",
+					"link": "/health-insurance/about-us/charity-guidelines",
+					"field_type": "text",
+					"required": true,
+					"cid": "c11"
+				}, {
+					"label": "Legal",
+					"link": "/health-insurance/about-us/legal",
+					"field_type": "text",
+					"required": true,
+					"cid": "c12"
+				}, {
+					"label": "Privacy",
+					"link": "/health-insurance/about-us/privacy",
+					"field_type": "text",
+					"required": true,
+					"cid": "c13"
+				}, {
+					"label": "Hon Code",
+					"link": "/health-insurance/about-us/honcode",
+					"field_type": "text",
+					"required": true,
+					"cid": "c14"
+				}]
+			}
+		}
+
+	]
+}
